@@ -1,2 +1,2 @@
-# Interface v1.0.0
-Estrutura inicial para projetos de interface.
+# Interface v2.0.0
+Estrutura inicial para projetos front-end.
