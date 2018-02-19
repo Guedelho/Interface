@@ -418,18 +418,18 @@ h6 {
     font-size: 1rem
 }
 
-.container {
-    margin-right: auto;
-    margin-left: auto
-}
-
-.container-fluid {
+[class*=section] {
     position: relative;
     padding-right: 1rem;
     padding-left: 1rem;
     margin-right: auto;
     margin-left: auto;
     max-width: 100%
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto
 }
 
 .invisible {
