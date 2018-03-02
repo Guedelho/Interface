@@ -557,7 +557,6 @@ h6 {
     display: inline-block
 }
 
-[class*=hidden],
 [class*=visible] {
     display: none !important
 }
