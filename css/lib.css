@@ -230,11 +230,13 @@ h6 {
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 5px;
+    margin-bottom: 5px;
     margin-bottom: .5rem
 }
 
 p {
     margin-top: 0;
+    margin-bottom: 10px;
     margin-bottom: 10px;
     margin-bottom: 1rem
 }
@@ -247,6 +249,7 @@ abbr[data-original-title] {
 
 address {
     margin-bottom: 10px;
+    margin-bottom: 10px;
     margin-bottom: 1rem;
     font-style: normal;
     line-height: inherit
@@ -256,6 +259,7 @@ ol,
 ul,
 dl {
     margin-top: 0;
+    margin-bottom: 10px;
     margin-bottom: 10px;
     margin-bottom: 1rem
 }
@@ -273,11 +277,13 @@ dt {
 
 dd {
     margin-bottom: 5px;
+    margin-bottom: 5px;
     margin-bottom: .5rem;
     margin-left: 0
 }
 
 blockquote {
+    margin: 0 0 10px;
     margin: 0 0 10px;
     margin: 0 0 1rem
 }
@@ -294,10 +300,12 @@ a:hover {
 pre {
     margin-top: 0;
     margin-bottom: 10px;
+    margin-bottom: 10px;
     margin-bottom: 1rem
 }
 
 figure {
+    margin: 0 0 10px;
     margin: 0 0 10px;
     margin: 0 0 1rem
 }
@@ -325,7 +333,9 @@ table {
 
 caption {
     padding-top: 7.5px;
+    padding-top: 7.5px;
     padding-top: .75rem;
+    padding-bottom: 7.5px;
     padding-bottom: 7.5px;
     padding-bottom: .75rem;
     color: #818a91;
@@ -339,6 +349,7 @@ th {
 
 label {
     display: inline-block;
+    margin-bottom: 5px;
     margin-bottom: 5px;
     margin-bottom: .5rem
 }
@@ -368,7 +379,9 @@ legend {
     width: 100%;
     padding: 0;
     margin-bottom: 5px;
+    margin-bottom: 5px;
     margin-bottom: .5rem;
+    font-size: 15px;
     font-size: 15px;
     font-size: 1.5rem;
     line-height: inherit
@@ -385,6 +398,7 @@ h4,
 h5,
 h6 {
     margin-bottom: 5px;
+    margin-bottom: 5px;
     margin-bottom: .5rem;
     font-family: inherit;
     color: inherit
@@ -392,30 +406,36 @@ h6 {
 
 h1 {
     font-size: 25px;
+    font-size: 25px;
     font-size: 2.5rem
 }
 
 h2 {
+    font-size: 20px;
     font-size: 20px;
     font-size: 2rem
 }
 
 h3 {
     font-size: 17.5px;
+    font-size: 17.5px;
     font-size: 1.75rem
 }
 
 h4 {
+    font-size: 15px;
     font-size: 15px;
     font-size: 1.5rem
 }
 
 h5 {
     font-size: 12.5px;
+    font-size: 12.5px;
     font-size: 1.25rem
 }
 
 h6 {
+    font-size: 10px;
     font-size: 10px;
     font-size: 1rem
 }
@@ -423,7 +443,9 @@ h6 {
 [class*=section] {
     position: relative;
     padding-right: 10px;
+    padding-right: 10px;
     padding-right: 1rem;
+    padding-left: 10px;
     padding-left: 10px;
     padding-left: 1rem;
     margin-right: auto;
@@ -494,7 +516,9 @@ h6 {
 
 [class*=col] {
     padding-left: 10px;
+    padding-left: 10px;
     padding-left: 1rem;
+    padding-right: 10px;
     padding-right: 10px;
     padding-right: 1rem;
     width: 100%;
@@ -697,14 +721,14 @@ h6 {
     align-content: flex-end
 }
 
-.align-content-xs-stretch {
+.align-content-xs-around {
     -ms-flex-line-pack: stretch;
-    align-content: stretch
+    align-content: space-around
 }
 
-.align-content-xs-baseline {
+.align-content-xs-between {
     -ms-flex-line-pack: baseline;
-    align-content: baseline
+    align-content: space-between
 }
 
 .justify-items-xs-start {
@@ -712,7 +736,7 @@ h6 {
     justify-items: flex-start
 }
 
-.justify-content-xs-center {
+.justify-items-xs-center {
     -ms-grid-column-align: center;
     justify-items: center
 }
@@ -722,14 +746,14 @@ h6 {
     justify-items: flex-end
 }
 
-.justify-items-xs-around {
+.justify-items-xs-stretch {
     -ms-grid-column-align: space-around;
-    justify-items: space-around
+    justify-items: stretch
 }
 
-.justify-items-xs-between {
+.justify-items-xs-baseline {
     -ms-grid-column-align: space-between;
-    justify-items: space-between
+    justify-items: baseline
 }
 
 .justify-content-xs-start {
@@ -1044,14 +1068,14 @@ h6 {
         align-content: flex-end
     }
 
-    .align-content-md-stretch {
+    .align-content-md-around {
         -ms-flex-line-pack: stretch;
-        align-content: stretch
+        align-content: space-around
     }
 
-    .align-content-md-baseline {
+    .align-content-md-between {
         -ms-flex-line-pack: baseline;
-        align-content: baseline
+        align-content: space-between
     }
 
     .justify-items-md-start {
@@ -1059,7 +1083,7 @@ h6 {
         justify-items: flex-start
     }
 
-    .justify-content-md-center {
+    .justify-items-md-center {
         -ms-grid-column-align: center;
         justify-items: center
     }
@@ -1069,14 +1093,14 @@ h6 {
         justify-items: flex-end
     }
 
-    .justify-items-md-around {
+    .justify-items-md-stretch {
         -ms-grid-column-align: space-around;
-        justify-items: space-around
+        justify-items: stretch
     }
 
-    .justify-items-md-between {
+    .justify-items-md-baseline {
         -ms-grid-column-align: space-between;
-        justify-items: space-between
+        justify-items: baseline
     }
     .justify-content-md-start {
         -webkit-box-pack: start;
@@ -1276,14 +1300,14 @@ h6 {
         align-content: flex-end
     }
 
-    .align-content-lg-stretch {
+    .align-content-lg-around {
         -ms-flex-line-pack: stretch;
-        align-content: stretch
+        align-content: space-around
     }
 
-    .align-content-lg-baseline {
+    .align-content-lg-between {
         -ms-flex-line-pack: baseline;
-        align-content: baseline
+        align-content: space-between
     }
 
     .justify-items-lg-start {
@@ -1291,7 +1315,7 @@ h6 {
         justify-items: flex-start
     }
 
-    .justify-content-lg-center {
+    .justify-items-lg-center {
         -ms-grid-column-align: center;
         justify-items: center
     }
@@ -1301,14 +1325,14 @@ h6 {
         justify-items: flex-end
     }
 
-    .justify-items-lg-around {
+    .justify-items-lg-stretch {
         -ms-grid-column-align: space-around;
-        justify-items: space-around
+        justify-items: stretch
     }
 
-    .justify-items-lg-between {
+    .justify-items-lg-baseline {
         -ms-grid-column-align: space-between;
-        justify-items: space-between
+        justify-items: baseline
     }
     .justify-content-lg-start {
         -webkit-box-pack: start;
@@ -1490,14 +1514,14 @@ h6 {
         align-content: flex-end
     }
 
-    .align-content-xl-stretch {
+    .align-content-xl-around {
         -ms-flex-line-pack: stretch;
-        align-content: stretch
+        align-content: space-around
     }
 
-    .align-content-xl-baseline {
+    .align-content-xl-between {
         -ms-flex-line-pack: baseline;
-        align-content: baseline
+        align-content: space-between
     }
 
     .justify-items-xl-start {
@@ -1505,7 +1529,7 @@ h6 {
         justify-items: flex-start
     }
 
-    .justify-content-xl-center {
+    .justify-items-xl-center {
         -ms-grid-column-align: center;
         justify-items: center
     }
@@ -1515,14 +1539,14 @@ h6 {
         justify-items: flex-end
     }
 
-    .justify-items-xl-around {
+    .justify-items-xl-stretch {
         -ms-grid-column-align: space-around;
-        justify-items: space-around
+        justify-items: stretch
     }
 
-    .justify-items-xl-between {
+    .justify-items-xl-baseline {
         -ms-grid-column-align: space-between;
-        justify-items: space-between
+        justify-items: baseline
     }
     .justify-content-xl-start {
         -webkit-box-pack: start;
