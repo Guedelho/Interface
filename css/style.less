@@ -1,3 +1,163 @@
-@media(min-width:768px) {}
-@media(min-width:992px) {}
-@media(min-width:1200px) {}
+@primary: #327eff;
+@secondary: #32db64;
+@danger: #f53d3d;
+@light: #f4f4f4;
+@dark: #222;
+
+@min768: ~"(min-width: 768px)";
+@min992: ~"(min-width: 992px)";
+@min1200: ~"(min-width: 1200px)";
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-size: 16px;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+section{
+  @p: 40px;
+  padding-top: @p;
+  padding-bottom: @p;
+  h1{
+    margin-bottom: 20px;
+  }
+}
+
+.form{
+
+}
+
+.section-header,
+.section-footer {
+  h1 {
+    margin: 0;
+  }
+}
+
+.btn {
+  @h: 40px;
+  display: inline-block;
+  height: @h;
+  line-height: @h;
+  text-decoration: none;
+}
+
+.link-logo {
+  display: block;
+  max-width: 200px;
+  padding: 10px 0;
+}
+
+.section-header {
+  position: absolute;
+  padding-top: 0;
+  padding-bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  .nav-menu {
+    a {
+      display: block;
+      margin: 0 10px;
+    }
+  }
+}
+
+.section-banner{
+  position: relative;
+  height: 100vmin;
+  background: url("../assets/img.png") no-repeat center center;
+  &::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+  }
+  @media @min768 {
+    height: 80vmin;
+  }
+  .grid, .row{
+    height: 100%;
+  }
+  .row{
+    z-index: 1;
+  }
+  h1{
+    color: @light;
+  }
+}
+
+.section-resources {
+  .block {
+    margin: 20px 0;
+  }
+  .icon-block {
+    text-align: center;
+  }
+  i {
+    font-size: 40px;
+    @media @min992 {
+      font-size: 50px;
+    }
+  }
+  p {
+    margin: 0;
+  }
+}
+
+.section-highlight{
+
+}
+
+.section-data {
+  strong, p{
+    font-size: 20px;
+    @media @min992 {
+      font-size: 30px;
+    }
+  }
+  strong{
+    display: block;
+    margin: 20px 0;
+  }
+  i {
+    font-size: 50px;
+    @media @min992 {
+      font-size: 60px;
+    }
+  }
+}
+
+.section-footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  .social-medias {
+    a {
+      display: block;
+      margin: 0 5px;
+    }
+  }
+  address{
+    margin: 0;
+  }
+  i {
+    font-size: 30px;
+  }
+}
