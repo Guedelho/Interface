@@ -957,7 +957,7 @@ h6 {
 
 @media(min-width:768px) {
     .container {
-        max-width: 748px
+        max-width: 768px
     }
     .col-md-1 {
         -ms-flex-preferred-size: 8.33333333%;
@@ -1189,7 +1189,7 @@ h6 {
         font-size: 2rem
     }
     .container {
-        max-width: 972px
+        max-width: 992px
     }
     .col-lg-1 {
         -ms-flex-preferred-size: 8.33333333%;
@@ -1403,7 +1403,7 @@ h6 {
 
 @media(min-width:1200px) {
     .container {
-        max-width: 1180px
+        max-width: 1200px
     }
     .col-xl-1 {
         -ms-flex-preferred-size: 8.33333333%;
