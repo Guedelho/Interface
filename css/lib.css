@@ -229,15 +229,11 @@ h5,
 h6 {
     font-weight: 700;
     margin-top: 0;
-    margin-bottom: 5px;
-    margin-bottom: 5px;
     margin-bottom: .5rem
 }
 
 p {
     margin-top: 0;
-    margin-bottom: 10px;
-    margin-bottom: 10px;
     margin-bottom: 1rem
 }
 
@@ -248,8 +244,6 @@ abbr[data-original-title] {
 }
 
 address {
-    margin-bottom: 10px;
-    margin-bottom: 10px;
     margin-bottom: 1rem;
     font-style: normal;
     line-height: inherit
@@ -259,8 +253,6 @@ ol,
 ul,
 dl {
     margin-top: 0;
-    margin-bottom: 10px;
-    margin-bottom: 10px;
     margin-bottom: 1rem
 }
 
@@ -276,15 +268,11 @@ dt {
 }
 
 dd {
-    margin-bottom: 5px;
-    margin-bottom: 5px;
     margin-bottom: .5rem;
     margin-left: 0
 }
 
 blockquote {
-    margin: 0 0 10px;
-    margin: 0 0 10px;
     margin: 0 0 1rem
 }
 
@@ -299,14 +287,10 @@ a:hover {
 
 pre {
     margin-top: 0;
-    margin-bottom: 10px;
-    margin-bottom: 10px;
     margin-bottom: 1rem
 }
 
 figure {
-    margin: 0 0 10px;
-    margin: 0 0 10px;
     margin: 0 0 1rem
 }
 
@@ -332,11 +316,7 @@ table {
 }
 
 caption {
-    padding-top: 7.5px;
-    padding-top: 7.5px;
     padding-top: .75rem;
-    padding-bottom: 7.5px;
-    padding-bottom: 7.5px;
     padding-bottom: .75rem;
     color: #818a91;
     text-align: left;
@@ -349,8 +329,6 @@ th {
 
 label {
     display: inline-block;
-    margin-bottom: 5px;
-    margin-bottom: 5px;
     margin-bottom: .5rem
 }
 
@@ -378,11 +356,7 @@ legend {
     display: block;
     width: 100%;
     padding: 0;
-    margin-bottom: 5px;
-    margin-bottom: 5px;
     margin-bottom: .5rem;
-    font-size: 15px;
-    font-size: 15px;
     font-size: 1.5rem;
     line-height: inherit
 }
@@ -397,56 +371,38 @@ h3,
 h4,
 h5,
 h6 {
-    margin-bottom: 5px;
-    margin-bottom: 5px;
     margin-bottom: .5rem;
     font-family: inherit;
     color: inherit
 }
 
 h1 {
-    font-size: 25px;
-    font-size: 25px;
     font-size: 2.5rem
 }
 
 h2 {
-    font-size: 20px;
-    font-size: 20px;
     font-size: 2rem
 }
 
 h3 {
-    font-size: 17.5px;
-    font-size: 17.5px;
     font-size: 1.75rem
 }
 
 h4 {
-    font-size: 15px;
-    font-size: 15px;
     font-size: 1.5rem
 }
 
 h5 {
-    font-size: 12.5px;
-    font-size: 12.5px;
     font-size: 1.25rem
 }
 
 h6 {
-    font-size: 10px;
-    font-size: 10px;
     font-size: 1rem
 }
 
 [class*=section] {
     position: relative;
-    padding-right: 10px;
-    padding-right: 10px;
     padding-right: 1rem;
-    padding-left: 10px;
-    padding-left: 10px;
     padding-left: 1rem;
     margin-right: auto;
     margin-left: auto;
@@ -454,6 +410,7 @@ h6 {
 }
 
 .container {
+    max-width: 100%;
     margin-right: auto;
     margin-left: auto
 }
@@ -515,11 +472,7 @@ h6 {
 }
 
 [class*=col] {
-    padding-left: 10px;
-    padding-left: 10px;
     padding-left: 1rem;
-    padding-right: 10px;
-    padding-right: 10px;
     padding-right: 1rem;
     width: 100%;
     margin: 0;
