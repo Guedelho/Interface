@@ -1,2 +1,2 @@
 # Interface
-Css library (grid system and utilities).
+Css library (reset, grid system and utilities).
