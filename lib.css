@@ -1,5 +1,5 @@
 /**
- * Interface v2
+ * Interface
  * Copyright 2015-2018 Mateus Guedelho Serejo
  * Github https://github.com/Guedelho/Interface
  */
@@ -24,7 +24,7 @@ html {
 
 body {
   margin: 0;
-  font-size: 16px;
+  font-size: 16px
 }
 
 article,

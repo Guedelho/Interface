@@ -1,2 +1,2 @@
-# Interface v2.0.0
-Estrutura inicial para projetos front-end.
+# Interface
+Css library (grid system and utilities).
